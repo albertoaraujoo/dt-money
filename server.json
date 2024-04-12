@@ -1,0 +1,84 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "website development",
+      "type": "income",
+      "category": "Sale",
+      "price": 14000,
+      "createdAt": "2024-04-11T14:43:53.759Z"
+    },
+    {
+      "id": 2,
+      "description": "hamburguer",
+      "type": "outcome",
+      "category": "Food",
+      "price": 50,
+      "createdAt": "2024-04-11T14:43:53.759Z"
+    },
+    {
+      "description": "ps5",
+      "price": 3500,
+      "category": "shop",
+      "type": "outcome",
+      "createdAt": "2024-04-12T17:20:32.989Z",
+      "id": 3
+    },
+    {
+      "description": "pack of keineken",
+      "price": 15,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2024-04-12T17:35:39.754Z",
+      "id": 4
+    },
+    {
+      "description": "lunch",
+      "price": 20,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2024-04-12T17:36:23.814Z",
+      "id": 5
+    },
+    {
+      "description": "tv 4k",
+      "price": 2000,
+      "category": "shop",
+      "type": "outcome",
+      "createdAt": "2024-04-12T17:48:49.213Z",
+      "id": 6
+    },
+    {
+      "description": "snacks",
+      "price": 2,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2024-04-12T17:55:41.274Z",
+      "id": 7
+    },
+    {
+      "description": "venda do ps4",
+      "price": 1500,
+      "category": "sale",
+      "type": "income",
+      "createdAt": "2024-04-12T21:38:00.260Z",
+      "id": 8
+    },
+    {
+      "description": "venda casa de lagoa seca",
+      "price": 200000,
+      "category": "sale",
+      "type": "income",
+      "createdAt": "2024-04-12T21:38:15.259Z",
+      "id": 9
+    },
+    {
+      "description": "dfd",
+      "price": 343,
+      "category": "fdfd",
+      "type": "income",
+      "createdAt": "2024-04-12T21:38:36.336Z",
+      "id": 10
+    }
+  ]
+}
