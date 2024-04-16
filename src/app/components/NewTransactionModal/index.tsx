@@ -8,7 +8,7 @@ import {
   TransactionType,
   TransactionTypeButton,
 } from "./styles";
-import { ArrowCircleDown, ArrowCircleUp, Radio, X } from "phosphor-react";
+import { ArrowCircleDown, ArrowCircleUp, X } from "phosphor-react";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTransactionsStore } from "@/stores/Transactions/useTransactionsStore";

@@ -4,22 +4,32 @@ import styled from "styled-components";
 
 export const Overlay = styled(Dialog.Overlay)`
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+  width: 200vw;
+  height: 200vh;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
 `;
 
 export const Content = styled(Dialog.Content)`
   min-width: 32rem;
-  border-radius: 6px;
   padding: 2.5rem;
   background: ${(props) => props.theme["gray-800"]};
-
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 768px) {
+    top: initial;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    border-radius: 60px 60px 0 0;
+    input,
+    button {
+      font-size: 1.2rem;
+    }
+  }
 
   form {
     margin-top: 2rem;

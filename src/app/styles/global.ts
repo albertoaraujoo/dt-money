@@ -11,14 +11,20 @@ export const GlobalStyle = createGlobalStyle`
         box-shadow: 0 0 0 2px ${(props) => props.theme["green-500"]}
     }
 
-    body {
+ 
+
+     body {
         background: ${(props) => props.theme["gray-800"]};
         color: ${(props) => props.theme["gray-100"]};
         webkit-font-smoothing: antialiased;
-    }
+        min-width: 500px;
+     }
 
-    body, input, textarea, button {
+
+
+   body, input, textarea, button {
         font-size:  1rem;
         font-weight: 400;
     }
+
 `;

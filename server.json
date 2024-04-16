@@ -33,14 +33,6 @@
       "id": 4
     },
     {
-      "description": "lunch",
-      "price": 20,
-      "category": "food",
-      "type": "outcome",
-      "createdAt": "2024-04-12T17:36:23.814Z",
-      "id": 5
-    },
-    {
       "description": "tv 4k",
       "price": 2000,
       "category": "shop",
@@ -49,36 +41,20 @@
       "id": 6
     },
     {
-      "description": "snacks",
-      "price": 2,
-      "category": "food",
-      "type": "outcome",
-      "createdAt": "2024-04-12T17:55:41.274Z",
+      "description": "mega sena",
+      "price": 2500,
+      "category": "loteria",
+      "type": "income",
+      "createdAt": "2024-04-15T21:05:34.887Z",
       "id": 7
     },
     {
-      "description": "venda do ps4",
-      "price": 1500,
-      "category": "sale",
+      "description": "freela shop website",
+      "price": 1000,
+      "category": "freela",
       "type": "income",
-      "createdAt": "2024-04-12T21:38:00.260Z",
+      "createdAt": "2024-04-16T15:21:53.029Z",
       "id": 8
-    },
-    {
-      "description": "venda casa de lagoa seca",
-      "price": 200000,
-      "category": "sale",
-      "type": "income",
-      "createdAt": "2024-04-12T21:38:15.259Z",
-      "id": 9
-    },
-    {
-      "description": "dfd",
-      "price": 343,
-      "category": "fdfd",
-      "type": "income",
-      "createdAt": "2024-04-12T21:38:36.336Z",
-      "id": 10
     }
   ]
 }

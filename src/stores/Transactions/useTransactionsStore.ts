@@ -16,10 +16,12 @@ type State = {
   transactions: Transaction[];
   fetchTransactions: () => Promise<void>;
   createTransaction: (data: CreateTransaction) => Promise<void>;
+  deleteTransaction: (id: number) => Promise<void>;
 };
 
 export const useTransactionsStore = create<State>((set) => ({
   transactions: [],
+
   fetchTransactions: async (query?: string) => {
     const response = await api.get("transactions", {
       params: {
@@ -43,6 +45,15 @@ export const useTransactionsStore = create<State>((set) => ({
 
     set((state) => ({
       transactions: [response.data, ...state.transactions],
+    }));
+  },
+
+  deleteTransaction: async (id: number) => {
+    await api.delete(`transactions/${id}`);
+    set((state) => ({
+      transactions: state.transactions.filter(
+        (transaction) => transaction.id !== id
+      ),
     }));
   },
 }));
