@@ -1,7 +1,7 @@
 import { api } from "@/lib/axios";
 import { create } from "zustand";
 
-type Transaction = {
+export type Transaction = {
   id: number;
   description: string;
   type: "income" | "outcome";

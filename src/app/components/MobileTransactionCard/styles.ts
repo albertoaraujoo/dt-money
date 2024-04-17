@@ -1,36 +1,21 @@
 import { Trash } from "phosphor-react";
 import styled from "styled-components";
 
-export const Table = styled.table`
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 0.5rem;
-  margin-top: 1.5rem;
-  color: ${(props) => props.theme["gray-300"]};
-
+export const MobileCardContainer = styled.tr`
   td {
-    font-size: 1.5rem;
-    background: ${(props) => props.theme["gray-700"]};
-    gap: 1rem;
-    &:first-child {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
-    }
-
-    &:last-child {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
-    }
+    padding: 0;
   }
 `;
 
 export const DescAndPriceAndDelete = styled.td`
   width: 100%;
   height: 8rem;
-  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  td {
+    padding: 0.5rem 0.5rem;
+  }
 `;
 
 export const DescAndPrice = styled.td`
@@ -38,6 +23,7 @@ export const DescAndPrice = styled.td`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  font-size: 1.5rem;
 `;
 
 export const CategoryAndDate = styled.td`
@@ -48,10 +34,12 @@ export const CategoryAndDate = styled.td`
 
   td {
     color: ${(props) => props.theme["gray-500"]};
-    padding: 1.25rem 2rem;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
     gap: 0.5rem;
     display: flex;
     align-items: center;
+    line-height: 0;
   }
 `;
 
