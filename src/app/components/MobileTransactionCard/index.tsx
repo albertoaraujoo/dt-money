@@ -32,7 +32,6 @@ export const MobileTransactionCard = ({
         <DescAndPrice>
           <td>{capitalizeFirstLetter(description)}</td>
           <td>
-            {" "}
             <PriceHighLight variant={type}>
               {type === "outcome" && "- "}
               {priceFormatter.format(price)}
@@ -40,7 +39,6 @@ export const MobileTransactionCard = ({
           </td>
         </DescAndPrice>
         <td>
-          {" "}
           <DeleteIcon onClick={() => deleTransaction(id)} size={30} />
         </td>
       </DescAndPriceAndDelete>

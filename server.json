@@ -31,6 +31,14 @@
       "type": "income",
       "createdAt": "2024-04-16T23:40:13.978Z",
       "id": 10
+    },
+    {
+      "description": "sushi night",
+      "price": 150,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2024-04-18T15:18:28.363Z",
+      "id": 13
     }
   ]
 }
